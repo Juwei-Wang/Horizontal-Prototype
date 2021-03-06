@@ -1,0 +1,28 @@
+﻿<Window x:Class="cpsc481.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cpsc481"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="518" Width="912">
+    <Grid Margin="0,10,762,0">
+        <DockPanel LastChildFill="False" Margin="0,-1,0,1">
+            <Image x:Name="mainicon" Source="/icon-main.png" DockPanel.Dock="Top" Height="160"/>
+            <Button x:Name="button1" Content="Favorite" DockPanel.Dock="Top" Click="button1_Click" Height="51" Background="#FFF175CF"/>
+            <Button x:Name="button2" Content="My Recipes" DockPanel.Dock="Top" Click="button2_Click" Height="51" Background="#FFF175CF"/>
+            <Button x:Name="button3" Content="My Account" DockPanel.Dock="Top" Click="button3_Click" Height="51" Background="#FFF175CF"/>
+            <Button x:Name="button4" Content="User Guide" DockPanel.Dock="Top" Click="button4_Click" Height="51" Background="#FFF175CF"/>
+            <Button x:Name="button5" Content="Setting" DockPanel.Dock="Top" Click="button4_Click" Height="51" Background="#FFF175CF"/>
+
+        </DockPanel>
+        <DockPanel LastChildFill="False" Margin="155,-1,-761,405">
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="423" Height="42"/>
+            <Button x:Name="search_button" Content="Button" Width="Auto" Height="41" Background="#FFF175CF" Click="Button_Click"/>
+            <Button x:Name="add_recipe_button" Content="Button" DockPanel.Dock="Right" Width="157" Height="41" Background="#FFF175CF" Click="add_recipe_button_Click"/>
+        </DockPanel>
+
+
+
+    </Grid>
+</Window>
