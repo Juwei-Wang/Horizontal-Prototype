@@ -23,12 +23,18 @@ namespace cpsc481
         public MainWindow()
         {
             InitializeComponent();
-            
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            if(grid2.Visibility == Visibility.Visible)
+            {
+                grid2.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                grid2.Visibility = Visibility.Visible;
+            }
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
@@ -41,20 +47,14 @@ namespace cpsc481
 
         }
 
-        private void button4_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void add_recipe_button_Click(object sender, RoutedEventArgs e)
+        private void button4_Click(object sender, RoutedEventArgs e)
         {
 
         }
-
     }
 }

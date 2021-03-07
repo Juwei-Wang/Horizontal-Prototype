@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\cpsc481\\cpsc481\\cpsc481.csproj": {}
+    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc4812\\cpsc481\\cpsc481.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\cpsc481\\cpsc481\\cpsc481.csproj": {
+    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc4812\\cpsc481\\cpsc481.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\cpsc481\\cpsc481\\cpsc481.csproj",
+        "projectUniqueName": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc4812\\cpsc481\\cpsc481.csproj",
         "projectName": "cpsc481",
-        "projectPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\cpsc481\\cpsc481\\cpsc481.csproj",
+        "projectPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc4812\\cpsc481\\cpsc481.csproj",
         "packagesPath": "C:\\Users\\juwei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\cpsc481\\cpsc481\\obj\\",
+        "outputPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc4812\\cpsc481\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

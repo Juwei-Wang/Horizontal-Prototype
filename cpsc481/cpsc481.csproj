@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="add-recipe.png" />
     <None Remove="icon-main.png" />
-    <None Remove="search-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="add-recipe.png" />
     <Resource Include="icon-main.png" />
-    <Resource Include="search-icon.png" />
   </ItemGroup>
 
 </Project>

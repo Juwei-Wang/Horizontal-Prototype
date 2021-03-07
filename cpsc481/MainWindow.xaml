@@ -5,23 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cpsc481"
         mc:Ignorable="d"
-        Title="MainWindow" Height="518" Width="912">
-    <Grid Margin="0,10,762,0">
-        <DockPanel LastChildFill="False" Margin="0,-1,0,1">
-            <Image x:Name="mainicon" Source="/icon-main.png" DockPanel.Dock="Top" Height="160"/>
-            <Button x:Name="button1" Content="Favorite" DockPanel.Dock="Top" Click="button1_Click" Height="51" Background="#FFF175CF"/>
-            <Button x:Name="button2" Content="My Recipes" DockPanel.Dock="Top" Click="button2_Click" Height="51" Background="#FFF175CF"/>
-            <Button x:Name="button3" Content="My Account" DockPanel.Dock="Top" Click="button3_Click" Height="51" Background="#FFF175CF"/>
-            <Button x:Name="button4" Content="User Guide" DockPanel.Dock="Top" Click="button4_Click" Height="51" Background="#FFF175CF"/>
-            <Button x:Name="button5" Content="Setting" DockPanel.Dock="Top" Click="button4_Click" Height="51" Background="#FFF175CF"/>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,682,0">
+        <StackPanel Background="#FFEE52F5">
+            <Image Height="122" Width="118" Source="/icon-main.png"/>
+            <Button x:Name="button1" Content="Favorites" Height="40" Background="#FFEE52F5" Click="button1_Click"/>
+            <Button x:Name="button2" Content="My Recipes" Height="40" Background="#FFEE52F5" Click="button2_Click"/>
+            <Button x:Name="button3" Content="My Account" Height="40" Background="#FFEE52F5" Click="button3_Click"/>
+            <Button x:Name="button5" Content="User Guide" Height="40" Background="#FFEE52F5" Click="button5_Click"/>
+            <Button x:Name="button4" Content="Seeting" Height="40" Background="#FFEE52F5" Click="button4_Click"/>
+        </StackPanel>
+        <DockPanel LastChildFill="False" Margin="105,0,-680,366" Background="#FFEE52F5">
 
-        </DockPanel>
-        <DockPanel LastChildFill="False" Margin="155,-1,-761,405">
-            <TextBox Text="TextBox" TextWrapping="Wrap" Width="423" Height="42"/>
-            <Button x:Name="search_button" Content="Button" Width="Auto" Height="41" Background="#FFF175CF" Click="Button_Click"/>
-            <Button x:Name="add_recipe_button" Content="Button" DockPanel.Dock="Right" Width="157" Height="41" Background="#FFF175CF" Click="add_recipe_button_Click"/>
-        </DockPanel>
+            <Button x:Name="button7" DockPanel.Dock="Right" Width="100" Background="#FFEE52F5">
+                <StackPanel Background="#FFEE52F5">
+                    <Image x:Name="image2" Source="/add-recipe.png" Height="40" OpacityMask="#FFEE52F5" />
+                </StackPanel>
+            </Button>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="350" Height="41"/>
+            <Button x:Name="button8" Content="Search" Width="Auto" Height="41" Background="#FFEE52F5">
 
+            </Button>
+        </DockPanel>
+        <Grid x:Name="grid2" Margin="123,74,-680,-145">
+            <Label x:Name="lebel2" Content="Labe2" HorizontalAlignment="Left" Margin="204,146,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid x:Name="grid3" Margin="123,74,-680,-145">
+            <Label x:Name="lebel3" Content="Labe3" HorizontalAlignment="Left" Margin="204,146,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid x:Name="grid4" Margin="123,74,-680,-145">
+            <Label x:Name="lebel4" Content="Labe4" HorizontalAlignment="Left" Margin="204,146,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid x:Name="grid5" Margin="123,74,-680,-145">
+            <Label x:Name="lebel5" Content="Labe5" HorizontalAlignment="Left" Margin="204,146,0,0" VerticalAlignment="Top"/>
+        </Grid>
 
 
     </Grid>
